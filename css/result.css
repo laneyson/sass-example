@@ -27,6 +27,7 @@ img {
   /* 절대 좌표 */
   height: 160px;
   position: relative;
+  background-color: #bad6ff;
 }
 
 #main_header > #title {
@@ -39,12 +40,14 @@ img {
   position: absolute;
   right: 0;
   top: 0;
+  background-color: #fff;
 }
 
 #main_header > #main_lnb {
   position: absolute;
   right: 0;
   bottom: 10px;
+  background-color: #fff;
 }
 
 #title {

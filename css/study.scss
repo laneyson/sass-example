@@ -1,3 +1,6 @@
+$light-blue: #bad6ff;
+$btn-back-color: #fff;
+
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +26,7 @@ img {
   /* 절대 좌표 */
   height: 160px;
   position: relative;
+  background-color: $light-blue;
 }
 #main_header > #title {
   position: absolute;
@@ -33,11 +37,13 @@ img {
   position: absolute;
   right: 0;
   top: 0;
+  background-color: $btn-back-color;
 }
 #main_header > #main_lnb {
   position: absolute;
   right: 0;
   bottom: 10px;
+  background-color: $btn-back-color;
 }
 
 #title {
